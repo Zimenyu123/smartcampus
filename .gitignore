@@ -1,0 +1,106 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+.cache/
+.history/
+.vercel/
+.turbo/
+.local
+
+# Environment files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+logs/
+
+# Editor directories and files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tests
+coverage/
+
+# ==========================================
+# 3D Tiles and Unity - 需要忽略的内容
+# ==========================================
+
+# 3D Tiles 数据文件
+*.b3dm
+*.i3dm
+*.pnts
+*.cmpt
+*.vctr
+tileset.json
+
+# Cesium 3D Tiles 目录
+**/cesium*/
+**/3dtiles*/
+**/3d-tiles*/
+
+# Unity 相关文件和目录
+**/Unity*/
+**/Build/
+**/TemplateData/
+UnityLoader.js
+UnityProgress.js
+*.unity
+*.unitypackage
+*.asset
+*.prefab
+*.mat
+*.controller
+*.anim
+*.meta
+
+# 大型媒体文件
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# 其他大型二进制文件
+*.fbx
+*.obj
+*.gltf
+*.glb
+*.dae
+*.3ds
+*.blend
+
+# 项目特定的大型文件/目录
+front-end/public/cesium4/
+front-end/public/三维嘉应学院展示(新)/
+front-end/public/JYUminimaxtest/
+front-end/src/assets/CesiumViewer/
+*.zip
+
+# 数据库文件
+*.sql
+
+# 报告文件
+*.report.html

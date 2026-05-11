@@ -1,0 +1,19 @@
+/* CesiumMap.css */
+#cesiumContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 确保Cesium地图控件适应圆角容器 */
+.cesium-viewer {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cesium-widget {
+    border-radius: 10px;
+    overflow: hidden;
+}
