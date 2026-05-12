@@ -1,5 +1,16 @@
 # 智慧校园三维管理平台
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Vue-3.x-brightgreen" alt="Vue 3"/>
+  <img src="https://img.shields.io/badge/Vite-6.x-%23646CFF" alt="Vite"/>
+  <img src="https://img.shields.io/badge/Cesium-1.x-blue" alt="Cesium"/>
+  <img src="https://img.shields.io/badge/NestJS-10.x-red" alt="NestJS"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.x-blue" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/MySQL-8.x-orange" alt="MySQL"/>
+  <br>
+  <sub>🔨 Built with ❤️ for Smart Campus Management</sub>
+</p>
+
 基于 Vue3 + Cesium + NestJS 开发的智慧校园三维管理平台原型。
 
 ## 项目简介
